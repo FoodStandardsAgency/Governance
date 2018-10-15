@@ -85,6 +85,7 @@ Not only is this important from a security perspective, but the 'teams' list is 
  
 ## Removal of Access  
 On resignation of employment, team maintainers, will undertake a risk assessment and determine whether existing access rights of an individual should be reviewed and reduced whilst working out their notice.  
+
 [NOT SURE HOW WE ENFORCE THIS TO NON FSA SYSTEMS - ADD INTO DEREGISTRATION PROCEDURE FOR LITTLEFISH WHO COULD REMOVE ACCESS TO ADMINISTER IN THE CASE OF GITHUB BUT WIDER IMPLICATIONS FOR THE LIKES OF TRELLO & OTHER WEBBASED APPLICATIONS HOW WILL USER KNOW IF SOMEONE LEAVES THE FSA QUITELY AND IS NOT PART OF THEIR TEAM]  
  
 On completion of a project the project owner/sponsor will need to make a decision on; 
@@ -148,7 +149,6 @@ The administrator for each repo will be added as a **Collaborator**. Using GitHu
 - It avoids creating *Admin only* teams for each service
 - It helps distinguish who is the administrator for a repository
 
-<img src="collaborators_teams.png" alt="Collaborators & teams" style="width: 600px;"/>
 
 Also added as *Collaborators* will be any contractors or suppliers who require access to the repo. Their access should be set to either *Read* or *Write*. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given *Admin* access.
 
