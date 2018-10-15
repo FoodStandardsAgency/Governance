@@ -113,7 +113,7 @@ Please see the link for starting new projects
 
 
 ## Creating a new team
-If you need a new team contact any member of the [Maintainers](https://github.com/orgs/foodstandardsagency/teams/maintainers/members) team. They will need
+If you need a new team contact the Data Team. They will need
 
 - The name of the service / project (please avoid acronyms to help support new users)
 - A description (one sentence long)
@@ -188,28 +188,24 @@ GitHub is great for managing all of the information around the code. This gu
 Creating documentation for your GitHub projects allows other developers to understand your work more easily, so that they can collaborate on your projects more effectively. 
  
  
-# Best Practice 
- 
-https://gist.github.com/pandeiro/1552496  
- 
-https://resources.github.com/videos/github-best-practices/  
+# [Best Practice](https://resources.github.com/videos/github-best-practices/)
  
 Includes 
 
-## Continuous Integration and Continuous Delivery 
+## [Continuous Integration and Continuous Delivery](https://youtu.be/xSv_m3KhUO8)
 Learn how Continuous Integration, Continuous Delivery and Continuous Deployment can help you ship better software, faster. 
 
-## Workflow Strategies 
+## [Workflow Strategies](https://youtu.be/aJnFGMclhU8)
 Two of the most popular workflow strategies in use today are the GitHub Flow and the Git Flow. Learn about the differences and some of the tools available to help you manage your work on GitHub. 
 
-## Managing Projects 
+## [Managing Projects](https://youtu.be/nI5VdsVl0FM)
 To categorize, prioritize, and manage your work, GitHub gives you a set of flexible tools like Labels, Milestones, and Projects, as well as robust APIs which let you craft a workflow that suits your needs. 
 
-## Quality Control 
+## [Quality Control](https://youtu.be/gJDtC_tp5w4)
 Incremental measures woven into each step of your workflow helps you maintain software quality without sacrificing productivity. Learn the basics of Pre-receive Hooks, Status, and Protected Branches. 
 
-## Finding What You Need 
+## [Finding What You Need](https://youtu.be/F1ss7Lv15cw)
 GitHub keeps a searchable index of all Repositories, Issues, Pull Requests, and Wikis. Learn about the tools available to help you find what you need, fast. 
 
-## Getting Insight Into Work 
+## [Getting Insight Into Work](https://youtu.be/wq1LGr2j1Fw)
 A GitHub project’s pulse, graphs, and branch statistics keep the focus on developers by giving you insights that help you ask the right questions, have conversations, and take thoughtful action. 
