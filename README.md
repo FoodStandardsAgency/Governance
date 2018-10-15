@@ -1,4 +1,4 @@
-#Food Standards Agency GitHub Governance 
+# Food Standards Agency GitHub Governance 
  
 # Purpose  
 The objective of this policy is to minimise accidental or unauthorised access to the Food Standards Agency’s (FSA) [GitHub](https://github.com) account, and projects including but not limited to the, applications, and information stored within.  
@@ -16,7 +16,7 @@ All employees (including temporary and agency workers), independent consultants 
 Members of FSA Advisory Committees and FSA Board  
 Third party organisations who require access to the FSA’s information systems and facilities should also be aware of the contents of this policy.  
  
-#User Access Management  
+# User Access Management  
 
 User access management covers all stages of user access, from initial registration, through changes in role, to deregistration and revocation of access.  
  
@@ -163,7 +163,7 @@ It is also on you to ensure **Collaborators & teams** reflects who should have a
 ## [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) 
 GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub Flow works. 
  
-)## [etting Started with GitHub Pages](https://guides.github.com/features/pages/)
+## [Getting Started with GitHub Pages](https://guides.github.com/features/pages/)
 GitHub Pages are a great way to showcase some open source projects, host a blog, or even share your résumé. This guide will help get you started on creating your next website. 
  
 ## [Git Handbook](https://guides.github.com/introduction/git-handbook/)
