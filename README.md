@@ -53,7 +53,7 @@ Whether you create an account or use an existing one, it must meet the following
 
 Please follow the GitHub help guide for Two Factor Authentication also known as 2FA 
 About two-factor authentication 
-Guidance on how to configure two factor authentication  
+Guidance on how to configure [Two factor authentication](https://help.github.com/articles/about-two-factor-authentication/)  
   
 # Joining the Food Standards Agency GitHub organisation 
 
