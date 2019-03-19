@@ -4,7 +4,7 @@ This guide covers how to get a new project on GitHub, and what our standards are
 
 ## Get a repo
 
-Contact [???](https://github.com/???) or ??? for a new repo to be created. They'll need
+Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
 
 - A name for the project
 - A description
