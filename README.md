@@ -157,6 +157,12 @@ Also added as *Collaborators* will be any contractors or suppliers who require a
 If you are the administrator for a repository it's your responsibility to ensure the repo has been set up and maintained in accordance with [New projects](new_projects.md) guide.
 
 It is also on you to ensure **Collaborators & teams** reflects who should have access to the repository.
+
+The current licencing for the FSA GitHub organisation includes up to 50 private repo's.  It is the joint responsibility of all Project leads that use GitHub to ensure we don't go over this limit.
+
+When a project has been completed the project owner should make the repo "Not Private" or store in the appropriate filemanagement location.
+
+When a project has been completed its the responsibility of the Project owner to save the files and documentation appropriately.  At the time of writing the governance documentation Wisdom is the official records management system for the FSA.
  
 # [Working on Git Hub](https://guides.github.com/) 
  
