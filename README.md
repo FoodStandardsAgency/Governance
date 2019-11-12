@@ -129,17 +129,15 @@ The [new projects](new_projects.md) guide covers what you need to do to create a
 
 ### Collaborators & teams
 
-The settings of a repository is where you control which teams have **write** access to it.
+The settings of a repository is where you control which teams have write access, teams should only have write access.
 
-Teams should only ever be given write access
+- All members have read access so granting a team this is meaningless
+- Teams represent all members of a service, however not all of them should have admin access
 
-- All members have *Read* access so granting a team this is meaningless
-- Teams represent all members of a service, however not all of them should have *Admin* access
-
-The administrator for each repo will be added as a collaborator. Using GitHub's available functionality this is seen as the best solution because it avoids creating *Admin only* teams for each service and it helps distinguish who is the administrator for a repository.
+The administrator for each repo will be added as a collaborator. Using GitHub's available functionality this is seen as the best solution because it avoids creating admin only teams for each service and it helps distinguish who is the administrator for a repository.
 
 
-Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either *Read* or *Write*. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given *Admin* access.
+Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either read or write. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given admin access.
 
 ### Being a repository admin
 
@@ -149,58 +147,26 @@ It is also on you to ensure **Collaborators & teams** reflects who should have a
 
 The current licencing for the FSA GitHub organisation includes up to 50 private repo's.  It is the joint responsibility of all Project leads that use GitHub to ensure we don't go over this limit.
 
-When a project has been completed the project owner should make the repo "Not Private" or store in the appropriate filemanagement location.
+When a project has been completed the project owner should make the repo "Not Private" or store in the appropriate file management location.
 
 When a project has been completed its the responsibility of the Project owner to save the files and documentation appropriately.  At the time of writing the governance documentation Wisdom is the official records management system for the FSA.
 
-# [Working on Git Hub](https://guides.github.com/)
+### Useful links
 
-## [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This guide explains how and why GitHub Flow works.
-
-## [Getting Started with GitHub Pages](https://guides.github.com/features/pages/)
-GitHub Pages are a great way to showcase some open source projects, host a blog, or even share your résumé. This guide will help get you started on creating your next website.
-
-## [Git Handbook](https://guides.github.com/introduction/git-handbook/)
-Learn about version control—in particular, Git, and how it works with GitHub
-
-## [Forking Projects](https://guides.github.com/activities/forking/)
-Ever find a project on GitHub that you want to work on? Find out how you can contribute with Forking.
-
-## [Be Social](https://guides.github.com/activities/socialize/)
-On GitHub there are many people and many projects to explore. Keeping up with the work that's done with them and showing your interest is easy.
-
-## [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
-Learn how to make your code citable in academic literature by assigning a Digital Object Identifier to your GitHub repository.
-
-## [Mastering Issues](https://guides.github.com/features/issues/)
-GitHub is great for managing all of the information around the code. This guide helps explain our issue tracking system and how to keep up to date with issues you’ve participated in.
-
-## [Markdown](https://guides.github.com/features/mastering-markdown/)
-￼Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
-
-## [Documenting your Projects on GitHub](https://guides.github.com/features/wikis/)
-Creating documentation for your GitHub projects allows other developers to understand your work more easily, so that they can collaborate on your projects more effectively.
-
-
-# [Best Practice](https://resources.github.com/videos/github-best-practices/)
-
-Includes
-
-## [Continuous Integration and Continuous Delivery](https://youtu.be/xSv_m3KhUO8)
-Learn how Continuous Integration, Continuous Delivery and Continuous Deployment can help you ship better software, faster.
-
-## [Workflow Strategies](https://youtu.be/aJnFGMclhU8)
-Two of the most popular workflow strategies in use today are the GitHub Flow and the Git Flow. Learn about the differences and some of the tools available to help you manage your work on GitHub.
-
-## [Managing Projects](https://youtu.be/nI5VdsVl0FM)
-To categorize, prioritize, and manage your work, GitHub gives you a set of flexible tools like Labels, Milestones, and Projects, as well as robust APIs which let you craft a workflow that suits your needs.
-
-## [Quality Control](https://youtu.be/gJDtC_tp5w4)
-Incremental measures woven into each step of your workflow helps you maintain software quality without sacrificing productivity. Learn the basics of Pre-receive Hooks, Status, and Protected Branches.
-
-## [Finding What You Need](https://youtu.be/F1ss7Lv15cw)
-GitHub keeps a searchable index of all Repositories, Issues, Pull Requests, and Wikis. Learn about the tools available to help you find what you need, fast.
-
-## [Getting Insight Into Work](https://youtu.be/wq1LGr2j1Fw)
-A GitHub project’s pulse, graphs, and branch statistics keep the focus on developers by giving you insights that help you ask the right questions, have conversations, and take thoughtful action.
+- [Working on Git Hub](https://guides.github.com/)
+- [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+- [Getting Started with GitHub Pages](https://guides.github.com/features/pages/)
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [Forking Projects](https://guides.github.com/activities/forking/)
+- [Be Social](https://guides.github.com/activities/socialize/)
+- [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+- [Mastering Issues](https://guides.github.com/features/issues/)
+- [Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Documenting your Projects on GitHub](https://guides.github.com/features/wikis/)
+- [Best Practice](https://resources.github.com/videos/github-best-practices/)
+- [Continuous Integration and Continuous Delivery](https://youtu.be/xSv_m3KhUO8)
+- [Workflow Strategies](https://youtu.be/aJnFGMclhU8)
+- [Managing Projects](https://youtu.be/nI5VdsVl0FM)
+- [Quality Control](https://youtu.be/gJDtC_tp5w4)
+- [Finding What You Need](https://youtu.be/F1ss7Lv15cw)
+- [Getting Insight Into Work](https://youtu.be/wq1LGr2j1Fw)
