@@ -1,8 +1,8 @@
 # New projects
 
-This guide covers how to get a new project on GitHub, and what our standards are for them.
+This guide covers our standards for projects and repositories within the Food Standards Agency (FSA) organisational account.
 
-## Get a repo
+## Getting a repository
 
 Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
 
@@ -11,31 +11,37 @@ Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
 - Whether the repo is to be private or public
 - Username of who will be its administrator
 
-**Do not create it under your own user account!** Though repo's can be transferred at a later date, it is simpler and clearer if the repo originates within the [Food Standards Agency](https://github.com/foodstandardsagency) organisation on GitHub.
+**Do not create it under your own user account!** Though repositories can be transferred at a later date, it is simpler and clearer if it originates from our organisation account.
 
 
-# Each repository should include a licence file
-This should be called LICENCE or LICENCE.md. “License” is the U.S. English spelling.
-GitHub.com will still show licence details for the British English spelling.
+### Each repository must include a licence file
+This should be called `LICENCE` or `LICENCE.md`.
+
+“License” is the U.S. English spelling, GitHub will still show licence details for the British English spelling.
+
 You should specify the licence and link to it in the repository’s README. It’s typical to include this information at the very end of a README under a ‘Licence’ heading.
 
-## Use MIT
-At the Food Standards Agency we use the [MIT License](https://opensource.org/licenses/MIT).
+#### Use MIT
+At the FSA we use the [MIT License](https://opensource.org/licenses/MIT).
 
 Make sure the licence content is included in full, including the title “The MIT License”, so that readers are quickly able to see what licence is being used.
 
-## Copyright notice
-The Copyright is Crown Copyright; you can put “Food Standards Agency” in brackets.
-e.g. Copyright (c) 2018 Crown Copyright (Food Standards Agency).
+### Copyright notice
+The Copyright is Crown Copyright; you can put “Food Standards Agency” in brackets, i.e.,
 
-The year should be the year the code was first published. Where the code is continually updated with significant changes, the year can be shown as a period from first to most recent update (e.g. 2015-2018).
+>Copyright (c) 2019 Crown Copyright (Food Standards Agency).
+
+The year should be the year the code was first published. Where the code is continually updated with significant changes, the year can be shown as a period from first to most recent update i.e.,
+
+ >Copyright (c) 2015-2019 Crown Copyright (Food Standards Agency).
+
 For more information on copyright notices, see the [UK Copyright Service fact sheet](http://www.copyrightservice.co.uk/copyright/p03_copyright_notices).
 
-# repositories that are open documentation
+## Repositories that are open documentation
 Some repositories will produce websites serving documentation. The GDS Way is an example of this. In addition to the MIT license for the code in the repository, you should include the Open Government Licence (OGL) for the documentation.
 
 
-# Add a .gitignore
+## Add a gitignore
 
 Every project no matter its content should contain a `.gitignore` file. This is to ensure files that are specific to you and the operating system you use are not included as part of the code you are committing to GitHub.
 
