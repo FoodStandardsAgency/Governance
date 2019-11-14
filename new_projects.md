@@ -14,19 +14,19 @@ Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
 **Do not create it under your own user account!** Though repositories can be transferred at a later date, it is simpler and clearer if it originates from our organisation account.
 
 
-### Each repository must include a licence file
+## Each repository must include a licence file
 This should be called `LICENCE` or `LICENCE.md`.
 
 “License” is the U.S. English spelling, GitHub will still show licence details for the British English spelling.
 
 You should specify the licence and link to it in the repository’s README. It’s typical to include this information at the very end of a README under a ‘Licence’ heading.
 
-#### Use MIT
+### Use MIT
 At the FSA we use the [MIT License](https://opensource.org/licenses/MIT).
 
 Make sure the licence content is included in full, including the title “The MIT License”, so that readers are quickly able to see what licence is being used.
 
-### Copyright notice
+## Copyright notice
 The Copyright is Crown Copyright; you can put “Food Standards Agency” in brackets, i.e.,
 
 >Copyright (c) 2019 Crown Copyright (Food Standards Agency).
@@ -38,12 +38,11 @@ The year should be the year the code was first published. Where the code is cont
 For more information on copyright notices, see the [UK Copyright Service fact sheet](http://www.copyrightservice.co.uk/copyright/p03_copyright_notices).
 
 ## Repositories that are open documentation
-Some repositories will produce websites serving documentation. The GDS Way is an example of this. In addition to the MIT license for the code in the repository, you should include the Open Government Licence (OGL) for the documentation.
-
+Some repositories will produce websites serving documentation. The [GDS Way](https://gds-way.cloudapps.digital/#the-gds-way) is an example of this. In addition to the MIT license for the code in the repository, you should include the Open Government Licence (OGL) for the documentation.
 
 ## Add a gitignore
 
-Every project no matter its content should contain a `.gitignore` file. This is to ensure files that are specific to you and the operating system you use are not included as part of the code you are committing to GitHub.
+Every project should contain a `.gitignore` file. This is to ensure files that are specific to you and the operating system you use are not included as part of the code you are committing to GitHub.
 
 Checkout out <https://github.com/github/gitignore> for a list of useful `.gitignore` templates.
 
@@ -67,13 +66,12 @@ ___*
 /tags
 ```
 
-# ReadMe
-Every repository should have a readme.  This should provide at minimum some brief context and initial getting started.  Larger repos may use a wiki area for documentation.
+## Readme
+Every repository must have a readme.  This should provide at minimum some brief context and initial getting started.  Larger repos may use a wiki area for documentation.
 
-For more information see [READMEs for GOV.UK applications guidance](https://docs.publishing.service.gov.uk/manual/readmes.html)
+For more information see [readmes for GOV.UK applications guidance](https://docs.publishing.service.gov.uk/manual/readmes.html)
 
-
-# Protect your branches
+## Protect your branches 🌳
 
 Use GitHub's [protected branches](https://help.github.com/articles/about-protected-branches/) feature for `master` (and if you're using Gitflow `develop`).
 
