@@ -19,7 +19,9 @@ Repositories should have clear, simple names, and be all lowercase with dashes `
 `sausage-egg-chips-beans-machine`
 
 ## Readme
-Every repository must have a readme. This should provide as a minimum some brief context and initial getting started. Larger repositories may use a wiki for documentation.
+Every repository must have a `README`. This should provide as a minimum some brief context and initial getting started.
+
+Larger repositories may use a wiki for documentation.
 
 For more information see [readmes for GOV.UK applications guidance](https://docs.publishing.service.gov.uk/manual/readmes.html)
 
@@ -28,12 +30,12 @@ This should be called `LICENCE` or `LICENCE.md`.
 
 “License” is the U.S. English spelling, GitHub will still show licence details for the British English spelling.
 
-You should specify the licence and link to it in the repository’s README. It’s typical to include this information at the very end of a README under a ‘Licence’ heading.
+You should specify the licence and link to it in the repository’s `README`, it’s typical to include this information at the very end of a `README` under a ‘Licence’ heading.
 
 ### Use MIT
 At the FSA we use the [MIT License](https://opensource.org/licenses/MIT).
 
-Make sure the licence content is included in full, including the title “The MIT License”, so that readers are quickly able to see what licence is being used.
+Make sure the licence content is included in full, including the title `The MIT License`, so that readers are quickly able to see what licence is being used.
 
 ## Copyright notice
 The Copyright is Crown Copyright; you can put “Food Standards Agency” in brackets, i.e.,
