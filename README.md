@@ -21,43 +21,41 @@ They provide direction and support for the implementation of information governa
 
 User access management covers all stages of user access, from initial registration, through changes in role, to deregistration and revocation of access.
 
-The security of our systems is dependent on protecting user IDs, passwords, and other credentials that provide access to them.
+The security of our systems is dependent on protecting user IDs, passwords, and other credentials that provide access to them. Identification and authentication of users and systems enables the tracking of activities to be traced to the person responsible.
 
-Identification and authentication of users and systems enables the tracking of activities to be traced to the person responsible.
-
-Users must have read, understood and agreed to the:
+Users must read, understand, and agreed to:
 
 - FSA Information Security Policy
 - The Acceptable Use Policy
 
 FSA staff are responsible for ensuring the contractors you are onboarding have read, understood, and agreed to these policies.
 
-### User registration  
+### User registration
 
 The process for user registration and granting access rights includes:
 
-1. Create a GitHub account and meet the account requirements
-2. Join the Food Standards Agency organisation
-3. Join a Team  
+1. Creating a GitHub account and meet the account requirements
+2. Joining the FSA organisation
+3. Joining a team  
 
 ### Creating a GitHub account
 
-All employees shall have a unique identifier (user ID) for their personal and sole use. If you do not have one, you'll need to [create an account](https://github.com/join). FSA staff should create one using their FSA details to use when working on Food Standards agency work.
+All users shall have a unique identifier for their personal and sole use. If you do not have one, you'll need to [create an account](https://github.com/join). FSA staff should create one using their FSA details to use when working on FSA services.
 
 #### Account requirements
 
-Whether you create an account or use an existing one, it must meet the following requirements;
+Whether you create an account or use an existing one, it must meet the following requirements:
 
 1. [Two factor authentication](https://help.github.com/articles/about-two-factor-authentication/) must be enabled
-2. Your profile must have the `Name` field populated with your full name i.e. `John Smith`
+2. Your profile must have the `Name` field populated with your full name i.e., `Hercules Rockefeller`
 
 A profile picture is not compulsory, but changing it from the default will help your team members distinguish your contributions from theirs.
 
-**Users with access to our organisation will be reviewed periodically, those users who do not meet these  requirements may be removed from the organisation without notice.**
+**Users with access to our organisation will be reviewed periodically, and users who do not meet these requirements may be removed from the organisation without notice.**
 
 ### Joining the organisation
 
-All repos at the Food Standards Agency must be created under the [Food Standards Agency organisation](https://github.com/FoodStandardsAgency).
+All repositories at the Food Standards Agency must be created under the [FSA organisation](https://github.com/FoodStandardsAgency).
 
 If you are a permanent member of FSA staff you can be added by contacting the IT service desk.
 
@@ -67,7 +65,7 @@ When contacting the IT service desk you will need to provide the following:
 - GitHub user name(s)
 - The email address associated with those user(s)
 - The project(s) you’ll be working on
-- The team(s) you will need access
+- The team(s) to add the user to
 
 The IT Service desk will confirm with the project or team owner before granting access.
 
@@ -80,7 +78,7 @@ If there is a team you are not a member of but think you need to be, please cont
 Some existing members of the Food Standards Agency organisation are contractors. This guidance came after we had been using GitHub for some time. New contractors and suppliers will be added as described in this guidance and existing users transitioned.
 
 ### User roles
-There are two roles that should be assigned to new users, `member` or `outside collaborator`. FSA staff should always be set up as members, outside collaborator should only be used for third-party supplier. It is not always necessary or desirable to make non-FSA users outside collaborators as you may want them to complete other admin of the team or repository on your behalf - we work on the principle of trusted relationships with our suppliers.
+There are two roles that should be assigned to new users, `member` or `outside collaborator`. FSA staff should always be set up as members, outside collaborator should only be used for third-party supplier. It is not always necessary or desirable to make non-FSA users outside collaborators as you may want them to complete other administration of the team or repository on your behalf - we work on the principle of trusted relationships with our suppliers.
 
 The final decision on which role is to be assigned to a user sits with the team maintainer.
 
@@ -93,13 +91,13 @@ Team maintainers are responsible for ensuring that the members of a team and the
 Maintainers should regularly review member lists to make sure they are up to date. Only those that require it should have access to each teams and repositories.  
 
 ### Removal of access  
-On resignation of employment, team maintainers, will undertake a risk assessment and determine whether existing access rights of an individual should be reviewed or reduced whilst working their notice period.
+On resignation of employment team maintainers must determine whether existing access rights of an individual should be reviewed or reduced whilst working their notice period.
 
 On completion of a project the project owner/sponsor will need to make a decision on:
 - Which contractors still require access and for how long
 - What staff require access and for how long
 
-Team members that no longer have a business requirement to access the information within a project or team should be removed at the earliest opportunity and informed that they no longer have access to those teams, repositories or the organisation.  
+Team members that no longer have a business requirement to access the information within a project or team should be removed at the earliest opportunity and informed that they no longer have access to those teams, repositories, or the organisation.  
 
 ### Monitoring system access  
 The service will be monitored to detect deviation from the this policy and record events to provide evidence in case of security incidents.  

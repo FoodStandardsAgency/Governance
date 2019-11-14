@@ -4,19 +4,24 @@ This guide covers our standards for projects and repositories within the Food St
 
 ## Getting a repository
 
-Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
+Contact it.servicedesk@food.gov.uk for a new repository to be created. They will need;
 
 - A name for the repository
 - A description
-- Whether the repo is to be private or public
-- Username of who will be its administrator
+- Whether the repo is to be private or public (please note that requests for private repositories will require approval and may take longer to set up)
+- The username of who will be its administrator
 
-**Do not create it under your own user account!** Though repositories can be transferred at a later date, it is simpler and clearer if it originates from our organisation account.
+**Do not create it under your own user account!** Though repositories can be transferred at a later date, it is simpler and clearer if it originates from our organisation directly.
 
 ### Naming repositories
 Repositories should have clear, simple names, and be all lowercase with dashes `-` (not underscores or spaces) between each word. i.e.,
 
 `sausage-egg-chips-beans-machine`
+
+## Readme
+Every repository must have a readme. This should provide as a minimum some brief context and initial getting started. Larger repositories may use a wiki for documentation.
+
+For more information see [readmes for GOV.UK applications guidance](https://docs.publishing.service.gov.uk/manual/readmes.html)
 
 ## Each repository must include a licence file
 This should be called `LICENCE` or `LICENCE.md`.
@@ -70,13 +75,8 @@ ___*
 /tags
 ```
 
-## Readme
-Every repository must have a readme.  This should provide at minimum some brief context and initial getting started.  Larger repos may use a wiki area for documentation.
-
-For more information see [readmes for GOV.UK applications guidance](https://docs.publishing.service.gov.uk/manual/readmes.html)
-
-## Protect your branches 🌳
+## Protect your branches
 
 Use GitHub's [protected branches](https://help.github.com/articles/about-protected-branches/) feature for `master` (and if you're using Gitflow `develop`).
 
-If you've hooked up the repo to some form of CI that updates the status of commits also use the option [required status checks](https://help.github.com/articles/about-required-status-checks/).
+If you've hooked up the repository to some form of CI that updates the status of commits also use the option [required status checks](https://help.github.com/articles/about-required-status-checks/).
