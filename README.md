@@ -8,31 +8,29 @@ This policy applies to:
 
 - All employees (including temporary and agency workers), independent consultants, contractors,
 members of FSA Advisory Committees, and the FSA Board
-- Third party organisations who require access to the FSA’s information systems and facilities should also be aware of the contents of this policy
+- Third party organisations who require access to the FSA’s information systems and facilities
 
 ### Purpose  
 The objective of this policy is to minimise accidental or unauthorised access to the [FSA GitHub](https://github.com/foodstandardsagency) account and projects.
 
-This repository contains guidance for accessing and using the organisational GitHub account when working on an FSA project.
+These are the rules for accessing or using the organisational GitHub account when working on an FSA project.
 
-It provides direction and support for the implementation of information governance and is designed to help FSA employees carry out the business of the FSA securely.  
+They provide direction and support for the implementation of information governance and are designed to help FSA employees carry out the business of the FSA securely.  
 
 ## User access management and onboarding
 
 User access management covers all stages of user access, from initial registration, through changes in role, to deregistration and revocation of access.
 
-The security of systems, networks, applications and databases is heavily dependent on the level of protection of user IDs, passwords, and other credentials that provide access to it.  
+The security of our systems is dependent on protecting user IDs, passwords, and other credentials that provide access to them.
 
 Identification and authentication of users and systems enables the tracking of activities to be traced to the person responsible.
-
-All employees shall have a unique identifier (user ID) for their personal and sole use.
 
 Users must have read, understood and agreed to the:
 
 - FSA Information Security Policy
 - The Acceptable Use Policy
 
-If you are FSA staff you are responsible for ensuring the contractors you are onboarding have read, understood, and agreed to these policies.
+FSA staff are responsible for ensuring the contractors you are onboarding have read, understood, and agreed to these policies.
 
 ### User registration  
 
@@ -44,7 +42,7 @@ The process for user registration and granting access rights includes:
 
 ### Creating a GitHub account
 
-Before you can do anything on GitHub you'll need to [create an account](https://github.com/join). FSA staff should create one using their FSA details to use when working on Food Standards agency work.
+All employees shall have a unique identifier (user ID) for their personal and sole use. If you do not have one, you'll need to [create an account](https://github.com/join). FSA staff should create one using their FSA details to use when working on Food Standards agency work.
 
 #### Account requirements
 
@@ -53,9 +51,9 @@ Whether you create an account or use an existing one, it must meet the following
 1. [Two factor authentication](https://help.github.com/articles/about-two-factor-authentication/) must be enabled
 2. Your profile must have the `Name` field populated with your full name i.e. `John Smith`
 
-A profile picture is not compulsory, but changing it from the default will help your team members distinguish your contributions from theirs
+A profile picture is not compulsory, but changing it from the default will help your team members distinguish your contributions from theirs.
 
-**Users with access to our organisation will be reviewed periodically, those users who do not meet these  requirements  be removed from the organisation without notice.**
+**Users with access to our organisation will be reviewed periodically, those users who do not meet these  requirements may be removed from the organisation without notice.**
 
 ### Joining the organisation
 
@@ -63,27 +61,30 @@ All repos at the Food Standards Agency must be created under the [Food Standar
 
 If you are a permanent member of FSA staff you can be added by contacting the IT service desk.
 
-Contractors and suppliers should be added to the organisation by the delivery or project manager that they report to as part of onboarding.
+Contractors and suppliers should be added to the organisation by the delivery or project manager that they report to as part of onboarding. The delivery manager should contact the IT service desk on their behalf.
 
 When contacting the IT service desk you will need to provide the following:
-- GitHub User Name
-- Email address associated with your GitHub account
+- GitHub user name(s)
+- The email address associated with those user(s)
 - The project(s) you’ll be working on
-- The team(s) you will need access to and the expected duration
+- The team(s) you will need access
 
 The IT Service desk will confirm with the project or team owner before granting access.
 
 ### Joining a team
-We will endeavour to add you to teams in a timely manner once your initial request has been submitted to the IT service desk.
+[Our teams](https://github.com/orgs/foodstandardsagency/teams) must be visible, secret teams are not permitted.
 
-All members of the organisation should be able to see [all our teams](https://github.com/orgs/foodstandardsagency/teams).
-
-If there is a team you are not a member of but feel you need to be, please contact the team maintainer.
-
+If there is a team you are not a member of but think you need to be, please contact the team maintainer.
 
 #### Existing members who are contractors
 Some existing members of the Food Standards Agency organisation are contractors. This guidance came after we had been using GitHub for some time. New contractors and suppliers will be added as described in this guidance and existing users transitioned.
-User Maintenance
+
+### User roles
+There are two roles that should be assigned to new users, `member` or `outside collaborator`. FSA staff should always be set up as members, outside collaborator should only be used for third-party supplier. It is not always necessary or desirable to make non-FSA users outside collaborators as you may want them to complete other admin of the team or repository on your behalf - we work on the principle of trusted relationships with our suppliers.
+
+The final decision on which role is to be assigned to a user sits with the team maintainer.
+
+For more detailed information on the difference between the two roles, please see the [help article](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/permission-levels-for-an-organization).
 
 ### Users are managed by team maintainers
 Team maintainers are responsible for ensuring that the members of a team and the repositories they have access to are up to date. This is important for security, and an important source of information for other users.
@@ -94,14 +95,14 @@ Maintainers should regularly review member lists to make sure they are up to dat
 ### Removal of access  
 On resignation of employment, team maintainers, will undertake a risk assessment and determine whether existing access rights of an individual should be reviewed or reduced whilst working their notice period.
 
-On completion of a project the project owner/sponsor will need to make a decision on;
+On completion of a project the project owner/sponsor will need to make a decision on:
 - Which contractors still require access and for how long
 - What staff require access and for how long
 
 Team members that no longer have a business requirement to access the information within a project or team should be removed at the earliest opportunity and informed that they no longer have access to those teams, repositories or the organisation.  
 
 ### Monitoring system access  
-Systems will be monitored to detect deviation from the Access Control Policy and record events to provide evidence in case of security incidents.  
+The service will be monitored to detect deviation from the this policy and record events to provide evidence in case of security incidents.  
 
 The system administrator does not have the authority to decide who should have access to what information. This is a business decision and is the responsibility of the project and/or the team maintainer.  
 
@@ -123,20 +124,25 @@ Not only is this important from a security perspective, but the list of teams is
 ## Repositories
 Repositories are where we actually store our content (mainly code) on GitHub. All members of the organisation have read access to all repositories, both public and private.
 
+### Public or private repositories
+Our current licence limits us to 50 private repositories. The FSA has a policy of working in the open and in most instances we should make our repositories public. If you need a private repository you will need to request this via the IT Service desk so that organisational administrators can review your request and archive or make public another repository if necessary.
+
+**We do not currently have a formal set of criteria for allocating private repositories (this is being developed), in the interim, requests will considered on a case by case basis.**
+
 ### Creating a new repository
 
-The [new projects](new_projects.md) guide covers what you need to do to create a new repository or project.
+The [new projects](new_projects.md) guide covers what to do when creating a new repository or project.
 
 ### Collaborators & teams
 
-The settings of a repository is where you control which teams have write access, teams should only have write access.
+The repository settings page is where you control which teams have write access.
 
 - All members have read access so granting a team this is meaningless
 - Teams represent all members of a service, however not all of them should have admin access
 
-The administrator for each repo will be added as a collaborator. Using GitHub's available functionality this is seen as the best solution because it avoids creating admin only teams for each service and it helps distinguish who is the administrator for a repository.
+The administrator for each repository will be added as a collaborator. Using GitHub's available functionality this is the best solution as it avoids creating administrator only teams for each service and helps distinguish who is the administrator for a repository.
 
-Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either read or write. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given admin access.
+Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either read or write.
 
 ### Being an admin
 
