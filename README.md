@@ -129,7 +129,7 @@ Our current licence limits us to 50 private repositories. The FSA has a policy o
 
 ### Creating a new repository
 
-The [new projects](new_projects.md) guide covers what to do when creating a new repository or project.
+The [repositories](Repositories.md) guide covers what to do when creating a new repository or project.
 
 ### Teams, collaborators, and repositories
 
@@ -143,7 +143,7 @@ Other collaborators will be contractors or suppliers who require access to the r
 
 ### Being an administrator
 
-Administrators should make sure the repository is set up and maintained in accordance with our [best practice](new_projects.md).
+Administrators should make sure the repository is set up and maintained in accordance with our [repositories guidance](repositories.md).
 
 Administrators must ensure team membership and collaborators accurately reflects who should have access to the repository.
 
