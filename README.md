@@ -109,7 +109,7 @@ The system administrator does not have the authority to decide who should have a
 ### Creating a new team
 If you need a new team contact the service desk. They will need;
 
-1. The name of the service / project (please avoid acronyms to help support new users)
+1. The name of the existing team, service, or project (please avoid acronyms to help support new users)
 2. A description (one sentence long)
 3. Username of the team maintainer
 4. A list of repositories the team requires access to
@@ -133,21 +133,20 @@ Our current licence limits us to 50 private repositories. The FSA has a policy o
 
 The [new projects](new_projects.md) guide covers what to do when creating a new repository or project.
 
-### Collaborators & teams
+### Teams, collaborators, and repositories
 
 The repository settings page is where you control which teams have write access.
 
-- All members have read access so granting a team this is meaningless
+- All members of the organisation have read access so granting a team this level of permissions is meaningless
 - Teams represent all members of a service, however not all of them should have admin access
+- You can (and should) create a sub-team for those users who will be administrators, this can be done after the repository is set up
 
-The administrator for each repository will be added as a collaborator. Using GitHub's available functionality this is the best solution as it avoids creating administrator only teams for each service and helps distinguish who is the administrator for a repository.
+Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either read or write. Collaborators should never have administrator access, if they require it then you should make them a team member.
 
-Other collaborators will be contractors or suppliers who require access to the repository. Their access should be set to either read or write.
+### Being an administrator
 
-### Being an admin
+Administrators should make sure the repository is set up and maintained in accordance with our [best practice](new_projects.md).
 
-Admins should make sure the repository is set up and maintained in accordance with our [best practice](new_projects.md).
-
-Admins must ensure team membership and collaborators accurately reflects who should have access to the repository.
+Administrators must ensure team membership and collaborators accurately reflects who should have access to the repository.
 
 When a project ends the repository should be made public or deprecated entirely and all files moved to Wisdom as an official record.

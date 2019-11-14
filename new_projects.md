@@ -6,13 +6,17 @@ This guide covers our standards for projects and repositories within the Food St
 
 Contact it.servicedesk@food.gov.uk for a new repo to be created. They'll need
 
-- A name for the project
+- A name for the repository
 - A description
 - Whether the repo is to be private or public
 - Username of who will be its administrator
 
 **Do not create it under your own user account!** Though repositories can be transferred at a later date, it is simpler and clearer if it originates from our organisation account.
 
+### Naming repositories
+Repositories should have clear, simple names, and be all lowercase with dashes `-` (not underscores or spaces) between each word. i.e.,
+
+`sausage-egg-chips-beans-machine`
 
 ## Each repository must include a licence file
 This should be called `LICENCE` or `LICENCE.md`.
