@@ -49,7 +49,7 @@ Whether you create an account or use an existing one, it must meet the following
 1. [Two factor authentication](https://help.github.com/articles/about-two-factor-authentication/) must be enabled
 2. Your profile must have the `Name` field populated with your full name i.e., `Hercules Rockefeller`
 
-A profile picture is not compulsory, but changing it from the default will help your team members distinguish your contributions from theirs.
+A profile picture is not compulsory, but changing it from the default will help your team members distinguish your contributions from theirs. We understand that some people are not comfortable having a picture of themselves on an online service, so you don't have to use your own face if you don't want to but please make it distinctive enough to distinguish your profile from others'.
 
 **Users with access to our organisation will be reviewed periodically, and users who do not meet these requirements may be removed from the organisation without notice.**
 
