@@ -55,19 +55,19 @@ A profile picture is not compulsory, but changing it from the default will help 
 
 ### Joining the organisation
 
-All repositories at the Food Standards Agency must be created under the [FSA organisation](https://github.com/FoodStandardsAgency).
+All repositories at the Food Standards Agency must be created under the [FSA Enterprise Account](https://github.com/enterprises/food-standards-agency).
 
-If you are a permanent member of FSA staff you can be added by contacting the IT service desk.
+If you are a permanent member of FSA staff you can be added by contacting the [Data Team](mailto:data@food.gov.uk?subject=[GitHub]).
 
-Contractors and suppliers should be added to the organisation by the delivery or project manager that they report to as part of onboarding. The delivery manager should contact the IT service desk on their behalf.
+Contractors and suppliers should be added to the organisation by the delivery or project manager that they report to as part of onboarding. The delivery manager should contact the [Data Team](mailto:data@food.gov.uk?subject=[GitHub]) on their behalf.
 
-When contacting the IT service desk you will need to provide the following:
+When contacting the [Data Team](mailto:data@food.gov.uk?subject=[GitHub]) you will need to provide the following:
 - GitHub user name(s)
 - The email address associated with those user(s)
 - The project(s) you’ll be working on
 - The team(s) to add the user to
 
-The IT Service desk will confirm with the project or team owner before granting access.
+The [Data Team](mailto:data@food.gov.uk?subject=[GitHub]) will confirm with the project or team owner before granting access.
 
 ### Joining a team
 [Our teams](https://github.com/orgs/foodstandardsagency/teams) must be visible, secret teams are not permitted.
